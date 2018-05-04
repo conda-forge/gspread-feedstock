@@ -1,6 +1,6 @@
 {% set name = "gspread" %}
-{% set version = "0.6.2" %}
-{% set sha256 = "41d4397b10bf330995be1d766ce449efe3db20c0b2f6b271e2273e7c48169bba" %}
+{% set version = "3.0.0" %}
+{% set sha256 = "8ec04e710bb95e93077612103cd48473faafc10f2f3080dc8a33197989cbf318" %}
 
 package:
   name: {{ name|lower }}
@@ -12,14 +12,14 @@ source:
   sha256: {{ sha256 }}
 
 build:
+  noarch: python
   number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
     - python
-    - setuptools
-
+    - pip
   run:
     - python
     - requests
