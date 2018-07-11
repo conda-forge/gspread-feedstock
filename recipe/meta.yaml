@@ -1,6 +1,6 @@
 {% set name = "gspread" %}
-{% set version = "0.6.2" %}
-{% set sha256 = "41d4397b10bf330995be1d766ce449efe3db20c0b2f6b271e2273e7c48169bba" %}
+{% set version = "2.0.0" %}
+{% set sha256 = "c61703e19e1f70b16515fcfc740d8f55d0f915bdca876b31e624a57ecd27ed88" %}
 
 package:
   name: {{ name|lower }}
