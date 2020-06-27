@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/g/gspread/gspread-{{ version }}.tar.gz
-  sha256: e04f1a6267b3929fc1600424c5ec83906d439672cafdd61a9d5b916a139f841c
+  sha256: c9997d4e7ca260e2e681db6a54f46a9d82c82f85fe05a0dcad8afd1ae713d003
 
 build:
   number: 0
