@@ -1,4 +1,4 @@
-{% set version = "3.6.0" %}
+{% set version = "3.7.0" %}
 
 package:
   name: gspread
@@ -6,15 +6,15 @@ package:
 
 source:
   url: https://pypi.io/packages/source/g/gspread/gspread-{{ version }}.tar.gz
-  sha256: e04f1a6267b3929fc1600424c5ec83906d439672cafdd61a9d5b916a139f841c
+  sha256: 4bda4ab8c5edb9e41cf4ae40d4d5fb30447522b4e43608e05c01351ab1b96912
 
 build:
   number: 0
   noarch: python
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-  build:
+  host:
     - python
     - pip
   run:
@@ -31,7 +31,7 @@ about:
   home: https://github.com/burnash/gspread
   license: MIT
   license_file: LICENSE.txt
-  summary: 'Google Spreadsheets Python API'
+  summary: Google Spreadsheets Python API
   license_family: MIT
   dev_url: https://github.com/burnash/gspread
   doc_url: http://gspread.readthedocs.io/
