@@ -5,11 +5,13 @@ Home: https://github.com/burnash/gspread
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/gspread-feedstock/blob/master/LICENSE.txt)
 
 Summary: Google Spreadsheets Python API
 
+Development: https://github.com/burnash/gspread
 
+Documentation: http://gspread.readthedocs.io/
 
 Current build status
 ====================
