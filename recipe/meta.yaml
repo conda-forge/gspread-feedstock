@@ -1,4 +1,4 @@
-{% set version = "5.7.1" %}
+{% set version = "5.10.0" %}
 
 package:
   name: gspread
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/g/gspread/gspread-{{ version }}.tar.gz
-  sha256: 5f39d7a218343b6514f06e2250e0c413eb4e814dde6aabf485dacb6aa31caab0
+  sha256: 2b6bba6dc111580170346a9bcd1893e0e8c52f67a9e537caec7b7a1e27c14435
 
 build:
   number: 0
