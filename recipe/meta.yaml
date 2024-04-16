@@ -22,7 +22,7 @@ requirements:
     - python >=3.8
     - google-auth >=1.12.0
     - google-auth-oauthlib >=0.4.1
-    - strenum == 0.4.15
+    - strenum ==0.4.15
 
 test:
   imports:
